@@ -3,10 +3,34 @@ html
     font-size : 22px;    
 }
 
+.welcoming
+{
+    font-size: 2rem;
+    color: rgb(241, 197, 245);
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 128px;
+    
+}
+
+footer
+{
+    padding-top: 565px;
+}
+
+hr{
+    border: 2px solid #754980;
+}
+
+.spechr
+{
+    border: 1px dotted #5f2f6b;
+}
+
 body 
 {
-    background-color: #333;
-    color: whitesmoke;
+    background-color: #23162b;
+    color: rgb(245, 197, 197);
 }
 
 input 
@@ -16,17 +40,17 @@ input
 
 a
 {
-    color: aliceblue;
+    color: rgb(245, 197, 197);
 }
 
 a:visited
 {
-    color: lightgray;
+    color: rgb(219, 145, 145);
 }
 
 a:hover ,a:active
 {
-    color: #eee;
+    color: rgb(255, 233, 233);
 }
 
 table, tr, th, td , caption
