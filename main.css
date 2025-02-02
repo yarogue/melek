@@ -18,18 +18,30 @@ html
     font-size: 12px;
 }
 
-footer
+hr
 {
-    padding-top: 565px;
-}
-
-hr{
     border: 2px solid #754980;
 }
 
 .spechr
 {
     border: 1px dotted #5f2f6b;
+}
+
+.cake
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+audio
+{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 body 
