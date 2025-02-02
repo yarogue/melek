@@ -13,6 +13,11 @@ html
     
 }
 
+.outro
+{
+    font-size: 12px;
+}
+
 footer
 {
     padding-top: 565px;
@@ -40,12 +45,12 @@ input
 
 a
 {
-    color: rgb(245, 197, 197);
+    color: rgb(255, 154, 154);
 }
 
 a:visited
 {
-    color: rgb(219, 145, 145);
+    color: rgb(245, 197, 197);
 }
 
 a:hover ,a:active
