@@ -8,9 +8,7 @@ html
     font-size: 2rem;
     color: rgb(241, 197, 245);
     text-align: center;
-    margin-top: 2rem;
     margin-top: 128px;
-    
 }
 
 .outro
@@ -31,17 +29,17 @@ hr
 .cake
 {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 audio
 {
     display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 body 
@@ -76,4 +74,20 @@ table, tr, th, td , caption
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    html {
+        font-size: 18px; /* Adjust base font size for smaller screens */
+    }
+
+    .welcoming {
+        margin-top: 64px; /* Adjust margin for smaller screens */
+    }
+
+    .cake, audio {
+        width: 100%; /* Make images and audio elements responsive */
+        height: auto;
+    }
 }
