@@ -36,12 +36,9 @@ hr
 
 img
 {
-    width: 45%;
-    height: 45%;
-    margin-top: 64px;
-    margin-bottom: 128px;
+    width: 25%;
+    height: 25%;
 }
-
 
 audio
 {
@@ -83,4 +80,20 @@ table, tr, th, td , caption
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    html {
+        font-size: 18px; /* Adjust base font size for smaller screens */
+    }
+
+    .welcoming {
+        margin-top: 64px; /* Adjust margin for smaller screens */
+    }
+
+    .cake, audio {
+        width: 100%; /* Make images and audio elements responsive */
+        height: auto;
+    }
 }
